@@ -10,7 +10,7 @@ export default function NavBar() {
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
                     <Link href="https://clain-token-dsp.netlify.app/" target="_blank" rel="noopener noreferrer">Withdraw</Link>
-                    <Link href="/Introduccion-al-Staking-en-Polygon.pdf" target="_blank" rel="noopener noreferrer" style={{ marginRight: '10px' }}>WhitePaper</Link>
+                    <Link href="/Introduccion-al-Staking-en-Polygon.pdf" target="_blank" rel="noopener noreferrer" mx={2}>WHITEPAPER</Link>
                     <a href="https://t.me/hoverboardlife" target="_blank" rel="noopener noreferrer" style={{ marginRight: '2px' }}>Telegram</a>
                 </Flex>
                 <ConnectWallet/>
