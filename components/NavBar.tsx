@@ -9,6 +9,9 @@ export default function NavBar() {
                 <Flex alignItems={"center"}>
                     <Link href={"/"} mx={2}>Play</Link>
                     <Link href={"/shop"} mx={2}>Shop</Link>
+                    <Link href="https://clain-token-dsp.netlify.app/" target="_blank" rel="noopener noreferrer">Withdraw</Link>
+                    <Link href="/Introduccion-al-Staking-en-Polygon.pdf" target="_blank" rel="noopener noreferrer" mx={2}>WhitePaper</Link>
+                    <a href="https://t.me/hoverboardlife" target="_blank" rel="noopener noreferrer" mx={2}>Telegram</a>
                 </Flex>
                 <ConnectWallet/>
             </Flex>
