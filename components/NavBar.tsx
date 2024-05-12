@@ -1,6 +1,5 @@
 import { Container, Flex, Heading, Link } from "@chakra-ui/react";
 import { ConnectWallet } from "@thirdweb-dev/react";
-import { Link as RouterLink } from 'react-router-dom';
 
 export default function NavBar() {
     return (
